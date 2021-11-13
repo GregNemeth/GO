@@ -1,4 +1,4 @@
-package main
+package magic8ball
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func magic8ball() {
 	rand.Seed(time.Now().UnixNano())
 	answers := [8]string{
 		"Not today!",
